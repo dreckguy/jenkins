@@ -27,5 +27,11 @@ pipeline {
       }
     }
 
+    stage('UI Test') {
+      steps {
+        echo 'UI Testing...'
+      }
+    }
+
   }
 }
